@@ -49,11 +49,11 @@ class local_searchquestions_question_bank_search_condition  extends core_questio
         require_login();
         echo "<br />\n";
         echo html_writer::label('Text search', 'searchtext');
-        echo html_writer::empty_tag('input', array('name'=>'searchtext', 'id'=>'searchtext', 'class'=>'searchoptions',
-                'value'=>$this->searchtext));
+        echo html_writer::empty_tag('input', array('name' => 'searchtext', 'id' => 'searchtext', 'class' => 'searchoptions',
+                'value' => $this->searchtext));
         echo "<br />\n";
-        echo html_writer::empty_tag('input', array('type'=>'checkbox', 'name'=>'searchanswers', 'id'=>'searchanswers',
-                'class'=>'searchoptions', 'value'=>1));
+        echo html_writer::empty_tag('input', array('type' => 'checkbox', 'name' => 'searchanswers', 'id' => 'searchanswers',
+                'class' => 'searchoptions', 'value' => 1));
         echo html_writer::label('Search answers', 'searchanswers');
     }
 
