@@ -14,5 +14,13 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
+/**
+ * Strings for component 'local_searchquestions', language 'en'
+ *
+ * @package   local_searchquestions
+ * @copyright 2014 onwards Ray Morris
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
 $string['pluginname'] = 'Question bank search text';
 

@@ -14,9 +14,17 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
-$plugin->version   = 2013112000;
+/**
+ * Version information for component 'local_searchquestions'
+ *
+ * @package   local_searchquestions
+ * @copyright 2014 onwards Ray Morris
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+$plugin->version   = 2015011200;
 $plugin->release   = '2.2.7';
 $plugin->maturity  = MATURITY_RC;
-$plugin->requires  = 2011120500;
+$plugin->requires  = 2014041100;
 $plugin->component = 'local_searchquestions';
 

@@ -13,11 +13,26 @@
 //
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+
+/**
+ * Functions for component 'local_searchquestions'
+ *
+ * @package   local_searchquestions
+ * @copyright 2014 onwards Ray Morris
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
 defined('MOODLE_INTERNAL') || die;
 
 global $CFG;
 require_once($CFG->dirroot . '/question/editlib.php');
 
+/**
+* Provide an array of search condition classes this plugin implements.
+*
+* @param \stdClass $caller
+* @return core_question\bank\search\condition[]
+*/
 function local_searchquestions_get_question_bank_search_conditions($caller) {
     return array( new local_searchquestions_question_bank_search_condition($caller));
 }
@@ -70,6 +85,5 @@ class local_searchquestions_question_bank_search_condition  extends core_questio
             $this->params['searchtext3'] = $this->params['searchtext1'];
         }
     }
-
 }
 
