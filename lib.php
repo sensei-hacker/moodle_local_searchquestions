@@ -59,9 +59,6 @@ class local_searchquestions_question_bank_search_condition  extends core_questio
     }
 
     public function display_options_adv() {
-        global $DB;
-        global $output;
-        require_login();
         echo "<br />\n";
         echo html_writer::label('Text search', 'searchtext');
         echo html_writer::empty_tag('input', array('name' => 'searchtext', 'id' => 'searchtext', 'class' => 'searchoptions',
