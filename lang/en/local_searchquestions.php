@@ -23,4 +23,5 @@
  */
 
 $string['pluginname'] = 'Question bank search text';
-
+$string['searchtext'] = 'Search text';
+$string['searchanswers'] = 'Search answers';
