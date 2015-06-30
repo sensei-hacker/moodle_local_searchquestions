@@ -1,5 +1,4 @@
 Question search module for Moodle (http://moodle.org/) - Copyright (C) 2014 Ray Morris
-
 Extends the Moodle question bank to find questions via text search, searching the text of the questions and answers.
 
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License
